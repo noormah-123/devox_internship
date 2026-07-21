@@ -2,32 +2,34 @@
 
 ## Description
 
-In Day 2, I practiced checking whether numbers are prime numbers and palindromes using Python.
+In Day 2, I practiced checking prime numbers and palindromes using Python.
 
-The main task checks whether a number is both a **prime number** and a **palindrome**. Two additional related tasks were also completed separately to understand each concept individually.
+The main task checks whether a number is both a **prime number** and a **palindrome**. Two additional
 
-## Project Structure
+related tasks were also completed separately to understand each concept individually.
 
-```text
-Day 2 \ Task
-│
-├── Task_1.py
-├── Task_2.py
-└── Task_3.py
 ## Task 1: Prime AND Palindrome
 
 The first program checks whether a number is both a prime number and a palindrome.
 
 A number must satisfy both conditions:
 
-It must be a prime number.
-It must be a palindrome.
+- It must be a prime number.
+- It must be a palindrome.
 
-For example:
+### Example
 
-131
+`131` is both prime and palindrome.
 
-131 is a prime number and reads the same forwards and backwards, so it is both prime and palindrome.
+### Concepts Used
+
+- Prime number checking
+- Palindrome checking
+- `if-else` statements
+- `for` loops
+- Boolean variables
+- Logical operater and
+
 
 ## Task 2: Prime Number Checker
 
@@ -35,18 +37,16 @@ The second program checks whether a number is a prime number.
 
 A prime number is a number greater than 1 that has only two factors:
 
-1
-The number itself
+- 1
+- The number itself
 
-For example:
+### Example
 
-7
-
-The number 7 is prime because it is only divisible by 1 and 7.
+` 7 `is prime because it is only divisible by 1 and 7.
 
 The modulo operator % is used to check the remainder after division:
 
-num % i == 0
+`num % i == 0`
 
 If the remainder is 0, the number is divisible by another number and is not prime.
 
@@ -56,11 +56,11 @@ The third program checks whether a number is a palindrome.
 
 A palindrome reads the same forwards and backwards.
 
-Examples:
+### Example
 
-121 → Palindrome
-1331 → Palindrome
-123 → Not a Palindrome
+- `121` → Palindrome
+- `1331` → Palindrome
+- `123` → Not a Palindrome
 
 The number is reversed using:
 
@@ -72,19 +72,25 @@ num == num[::-1]
 
 If both values are the same, the number is a palindrome.
 
-## Concepts Learned
-input()
-int()
-if-else statements
-for loops
-range()
-Modulo operator %
-String slicing
-Reverse slicing [::-1]
-Boolean variables
-Logical operator and
-Checking prime numbers
-Checking palindrome numbers
-Conclusion
+### Concepts Learned
 
-These tasks helped me understand how to combine multiple conditions and how to solve problems using loops, conditional statements, operators, string slicing, and Boolean logic in Python.
+- `int()`
+- `input()`
+- `if-else` statements
+- `for` loops
+- `range()`
+- Modulo operator `%`
+- String slicing
+- Reverse slicing `[::-1]`
+- Boolean variables
+- Logical operator `and`
+- Checking prime numbers
+- Checking palindrome numbers
+
+### Conclusion
+
+These tasks helped me understand how to combine multiple conditions and solve problems using loops, 
+
+conditional statements, operators, string slicing, and Boolean logic in Python.
+
+

@@ -29,13 +29,13 @@ def main():
                 # Check if marks are inside the real range (0 to 100)
                 if 0 <= marks <= 100:
                     grade = calculate_grade(marks)
-                    print(f"\n✅ Result: Marks: {marks} | Grade: {grade}")
+                    print(f"\n Result: Marks: {marks} | Grade: {grade}")
                 else:
-                    print("\n⚠️ Error: Marks must be between 0 and 100.")
+                    print("\n Error: Marks must be between 0 and 100.")
 
             except ValueError:
                 # This prevents crashes if the user types letters instead of numbers
-                print("\n⚠️ Error: Invalid input! Please enter numbers only.")
+                print("\n Error: Invalid input! Please enter numbers only.")
 
         elif choice == '2':
             print("Exiting calculator. Goodbye!")

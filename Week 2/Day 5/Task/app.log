@@ -1,0 +1,10 @@
+2026-07-31 16:58:53,672 | INFO | sales_app | --- Starting Sales Processing Script ---
+2026-07-31 16:58:53,673 | INFO | sales_app | Attempting to load file from: D:\internship devnox\devox_internship\Week 2\Day 5\Data\sales.csv
+2026-07-31 16:58:53,674 | INFO | sales_app | File found successfully! Loading CSV...
+2026-07-31 16:58:53,703 | ERROR | sales_app | Data processing stopped due to a DataError: Found 3 invalid amount row(s) (must be numeric and >= 0).
+Traceback (most recent call last):
+  File "D:\internship devnox\devox_internship\Week 2\Day 5\Task\Task.py", line 103, in main
+    df = load_and_validate(csv_path)
+  File "D:\internship devnox\devox_internship\Week 2\Day 5\Task\Task.py", line 87, in load_and_validate
+    raise InvalidAmountError(bad_count)
+InvalidAmountError: Found 3 invalid amount row(s) (must be numeric and >= 0).

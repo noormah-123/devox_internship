@@ -1,0 +1,62 @@
+2026-07-31 16:43:06,208 | INFO | sales_app | Starting processing. csv_path=data\sales.csv
+2026-07-31 16:43:06,211 | ERROR | sales_app | Unexpected error: [Errno 2] No such file or directory: 'data\\sales.csv'
+Traceback (most recent call last):
+  File "d:\internship devnox\devox_internship\Week 2\Day 5\Task\Task.py", line 86, in main
+    df = load_and_validate(csv_path)
+  File "d:\internship devnox\devox_internship\Week 2\Day 5\Task\Task.py", line 63, in load_and_validate
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\common.py", line 930, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\sales.csv'
+2026-07-31 16:47:47,022 | INFO | sales_app | Starting processing. csv_path=data\sales.csv
+2026-07-31 16:47:47,029 | ERROR | sales_app | Unexpected error: [Errno 2] No such file or directory: 'data\\sales.csv'
+Traceback (most recent call last):
+  File "d:\internship devnox\devox_internship\Week 2\Day 5\Task\Task.py", line 86, in main
+    df = load_and_validate(csv_path)
+  File "d:\internship devnox\devox_internship\Week 2\Day 5\Task\Task.py", line 63, in load_and_validate
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Computer Arena\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\common.py", line 930, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\sales.csv'

@@ -1,0 +1,10 @@
+customer_id,customer,city,sales
+1,Alice,London,250
+2,Bob,Paris,180
+3,Chris,London,
+4,Dina,Berlin,220
+2,Bob,Paris,180
+5, Emma ,London,300
+6,ALI,LONDON,150
+7,Sara,,270
+8,John,Paris,abc

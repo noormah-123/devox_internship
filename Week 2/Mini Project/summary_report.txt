@@ -1,0 +1,25 @@
+DATA CLEANING SUMMARY
+=========================
+
+Original Rows          : 9
+Rows After Cleaning    : 8
+Duplicate Rows Removed : 1
+
+Missing Values Before Cleaning:
+customer_id    0
+customer       0
+city           1
+sales          2
+dtype: int64
+
+Average Sales Used : 228.33
+
+Cleaning Operations Performed:
+- Removed duplicate rows
+- Removed extra spaces
+- Standardized customer names
+- Standardized city names
+- Converted invalid sales values to numeric
+- Filled missing city values with 'Unknown'
+- Filled missing sales values using average
+- Saved cleaned dataset
